@@ -7,5 +7,11 @@ public class CommandConstant {
 
     public static final String CAT = "cat";
 
+    public static final String GREP = "grep";
+
+    public static final String WC  = "wc";
+
+    public static final String CUT  = "cut";
+
 
 }
