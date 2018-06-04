@@ -3,7 +3,9 @@ package qfchomework.command;
 /**
  * Created by yaphetsBin on 2018-06-04.
  */
-public interface Command {
+public class CommandConstant {
 
-    public  String init();
+    public static final String CAT = "cat";
+
+
 }
