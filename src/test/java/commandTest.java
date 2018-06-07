@@ -1,3 +1,4 @@
+import com.google.common.base.CharMatcher;
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;
 import org.junit.Test;
@@ -29,5 +30,12 @@ public class commandTest {
         Integer readLines = Files.asCharSource(testFile,Charsets.UTF_8).readLines(counter);
         System.out.println(counter.getResult());
 
+    }
+
+    @Test
+    public void whitespaceTest(){
+
+        String x = CharMatcher.whitespace().trimAndCollapseFrom("  cat  test.text",' ');
+        System.out.println(x);
     }
 }
