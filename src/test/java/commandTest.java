@@ -35,7 +35,7 @@ public class commandTest {
     @Test
     public void whitespaceTest(){
 
-        String x = CharMatcher.whitespace().trimAndCollapseFrom("  cat  test.text",' ');
-        System.out.println(x);
+        String x = CharMatcher.whitespace().trimAndCollapseFrom("cat  test.text",'1');
+        System.out.println(x.split(" ")[0]);
     }
 }
