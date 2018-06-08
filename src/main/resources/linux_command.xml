@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command id="linuxCommand">
+
+    <cat>
+        <params prefix="-">
+            <param name="number" value="n">
+                <description>对输出的所有行编号，由1开始对所有输出的行数编号</description>
+            </param>
+
+            <param name="showall" value="A" combinesValue="v|E|T">
+                <description>等价于-vET</description>
+            </param>
+
+            <param name="number_nonblank" value="b">
+                <description>对非空输出行编号</description>
+            </param>
+
+            <param name="e" value="e" combinesValue="v|E">
+                <description>等价于-vE</description>
+            </param>
+
+            <param name="squeeze_blank" value="s">
+                <description>有连续两行以上的空白行，就代换为一行的空白行</description>
+            </param>
+
+            <param name="t" value="t" combinesValue="vT">
+                <description>等价于-vT</description>
+            </param>
+            <param name="show_tabs" value="T">
+                <description>将</description>
+            </param>
+        </params>
+    </cat>
+</command>
