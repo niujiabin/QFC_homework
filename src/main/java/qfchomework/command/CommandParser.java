@@ -33,7 +33,9 @@ public class CommandParser {
     private void checkCommand(String commandStrs) {
 
         String splits[] = commandStrs.split(" ");
+
         String commandName = splits[0];//获取指令名称
+
         checkCommandName(commandName);
 
     }
