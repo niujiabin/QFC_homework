@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 public class PropUtil {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(PropUtil.class.getName());
-    private static final String REGEX_PROPERTIES = "^(.*).xml%";
+    private static final String REGEX_PROPERTIES = "^(.*).xml$";
     private static final Pattern PATTERN_PROPERTIES = Pattern.compile(REGEX_PROPERTIES);
     private static Properties properties = new Properties();
     private static ClassLoader classLoader = getDefaultClassLoader();
