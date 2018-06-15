@@ -62,7 +62,7 @@ public class PropUtil {
         return classpath;
     }
 
-    private static Properties getProperties() {
+    public static Properties getProperties() {
         return properties;
     }
 

@@ -1,5 +1,7 @@
 package qfchomework.command;
 
+import java.util.List;
+
 /**
  * 一个命令包括命令名称、命令参数和命令内容
  * 分别由类
@@ -16,7 +18,7 @@ public class Command {
     /**
      * 指令参数
      */
-    private CommandParameter commandParameter;
+    private List<CommandParameter> commandParameter;
 
     /**
      * 指令内容
@@ -36,13 +38,7 @@ public class Command {
         this.commandContent = commandContent;
     }
 
-    public CommandParameter getCommandParameter() {
-        return commandParameter;
-    }
 
-    public void setCommandParameter(CommandParameter commandParameter) {
-        this.commandParameter = commandParameter;
-    }
 
 
     public CommandName getCommandName() {
@@ -51,5 +47,13 @@ public class Command {
 
     public void setCommandName(CommandName commandName) {
         this.commandName = commandName;
+    }
+
+    public List<CommandParameter> getCommandParameter() {
+        return commandParameter;
+    }
+
+    public void setCommandParameter(List<CommandParameter> commandParameter) {
+        this.commandParameter = commandParameter;
     }
 }
