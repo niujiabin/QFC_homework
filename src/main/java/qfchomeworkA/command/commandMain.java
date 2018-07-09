@@ -1,4 +1,4 @@
-package qfchomework.command;
+package qfchomeworkA.command;
 
 /**
  *

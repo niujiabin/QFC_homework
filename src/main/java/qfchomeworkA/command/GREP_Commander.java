@@ -1,4 +1,4 @@
-package qfchomework.command;
+package qfchomeworkA.command;
 
 /**
  * Created by yaphetsBin on 2018-06-15.

@@ -1,10 +1,7 @@
-package qfchomework.command;
+package qfchomeworkA.command;
 
-import com.google.common.base.Utf8;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import sun.nio.cs.StandardCharsets;
-import sun.nio.cs.UTF_32;
 
 import java.io.File;
 import java.io.FileInputStream;

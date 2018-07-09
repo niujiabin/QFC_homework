@@ -1,7 +1,6 @@
-package qfchomework.command;
+package qfchomeworkA.command;
 
 import com.google.common.base.CharMatcher;
-import com.google.common.base.Preconditions;
 
 import java.util.Map;
 
@@ -12,6 +11,13 @@ import java.util.Map;
 public class CommandParser {
 
     private Map<String, Command> commandMap;//指令集
+
+    private AbstractCommander commander;
+
+    public CommandParser(){}
+    public CommandParser(AbstractCommander commander){
+        this.commander = commander;
+    }
 
     /**
      *
@@ -41,8 +47,7 @@ public class CommandParser {
      */
     private void doParse(Command command) {
 
-        //不同命令处理不同
-
+        commander.doCommand();
     }
 
     /**

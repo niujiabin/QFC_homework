@@ -6,13 +6,11 @@ import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import org.junit.Test;
-import qfchomework.command.CounterLine;
-import qfchomework.command.PropUtil;
+import qfchomeworkA.command.CounterLine;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-import java.util.Properties;
 
 /**
  * 主要用于测试
